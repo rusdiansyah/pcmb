@@ -1,0 +1,175 @@
+body {
+/*height: 100%;
+/* The html and body elements cannot have any padding or margin. */
+padding-top: 50px;
+}
+
+.navbar .tagline {
+color: #999999;
+float: left;
+font-size: 11px;
+line-height: 50px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+.dropdown-menu {
+margin: 0;
+}
+.btn-group > li > .dropdown-menu:after {
+border-bottom: 6px solid #FFFFFF;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+content: "";
+display: inline-block;
+left: 10px;
+position: absolute;
+top: -6px;
+}
+.btn-group > li > .dropdown-menu:before {
+border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+content: "";
+display: inline-block;
+left: 9px;
+position: absolute;
+top: -7px;
+}
+
+.page-header{
+margin-top: -10px;
+padding-bottom: 0;
+}
+
+.page-header h1{
+font-size: 35px;
+line-height: normal;
+}
+
+.page-header h1.alt{
+color: inherit;
+margin-left: 15px;
+line-height: 1em;
+padding-top: 7px;
+}
+
+.page-header a.btn{
+margin-top: 9px;
+}	
+
+#footer {
+background-color: #F5F5F5;
+height: 60px;
+}
+
+#subheader{
+padding: 0 15px;
+}
+
+.dafooter {
+background-color: #222222;
+color: #FFFFFF;
+margin-top: 30px;
+padding: 9px 0;
+}
+
+
+
+.dabox {
+margin-bottom: 15px;
+padding: 10px;
+}
+
+.dabox .form-title {
+padding: 15px;
+margin-bottom: 20px;
+text-align: center;
+font-size: 26px;
+}
+
+.dabox h3{
+padding: 6px 9px;
+padding-bottom: 7px;
+margin: -9px;
+margin-bottom: 10px;
+width: 100%;
+line-height: normal;
+font-size: 16px;
+}
+.dabox h3 i
+{
+margin-top: 5px;
+}
+.dabox ul{
+list-Style: none;
+margin: -7px 0;
+padding: 0;
+}
+.dabox ul li{
+padding: 7px 0;
+border-bottom: #E8E8E8 1px solid;
+}
+.dabox ul li a{
+display: block;
+}
+.dabox ul li:last-child{
+border-bottom: 0;
+}
+.dabox ul li small{
+font-size: x-small;
+}
+.dabox ul li abbr{
+font-size: x-small;
+}
+
+.thumbnail h3{
+display: block;
+margin-top: 0px;
+margin-bottom: 0px;
+padding: 7px 0px;
+line-height: normal;
+font-size: 15px;
+text-align: center;
+}
+
+.thumbnail .action{
+display: block;
+}
+
+.carousel-control{
+opacity: 0.1;
+margin-top: 2px;
+}
+
+#form-login,
+#form-register{
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+#form-login .form-actions{
+margin-top: 30px;
+margin-bottom: 0;
+padding-left: 130px;
+}
+
+#form-login .control-label{
+width:100px;
+}
+
+#form-login .controls {
+margin-left: 130px;
+}
+
+#form-register .form-actions{
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+.table tr:first-child td{
+	border-top: 0;
+}
+
+.table tr td{
+	text-align: normal;
+}

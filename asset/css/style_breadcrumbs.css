@@ -1,0 +1,5 @@
+body { font-family: "Lucida Grande", Arial, Helvetica, sans-serif; color: #666666; font-size: 12px; background: #FFFFFF; }
+a { color: #0A8ECC; }
+a:hover { text-decoration: none; color: #8FCB2F; }	
+h1 { font-weight: normal; color: #0A8ECC; margin: 0; padding: 0; }
+.clear { font-size: 0; line-height: 0; height: 1px; width: 100%; clear: both; }
